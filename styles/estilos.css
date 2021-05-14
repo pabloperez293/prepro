@@ -1,0 +1,64 @@
+:root{
+    --dark: black;
+    --white: white;
+    --light-grey: #cfcfcf;
+    --gold: #ecd5a7;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    /* background-color: var(--dark); */
+}
+h2, h3, h4, h5, h6, .navnar-brand{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+.bg-dark{
+    background-color: var(--white);
+}
+.text-gold{
+    color: var(--gold) !important;
+}
+.text-light{
+    color: var(--white) !important;
+}
+.navbar{
+    min-width: 5rem;
+}
+.nav-link{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+section{
+    padding: 6rem 0;
+}
+#slider{
+    padding: 0 ;
+}
+.text-center{
+    text-align: center !important;
+}
+.caption{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+.carousel-caption h1{
+    /* font-size: 6em; */
+    letter-spacing: .3em;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.836);
+    color: white;
+    user-select: none;
+}
+.carousel-caption p{
+    /* font-size: 6em; */
+    background: rgba(0, 0, 0, 0.884);
+}
+.mt-6{
+    margin-top: 4rem;
+}
