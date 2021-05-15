@@ -33,7 +33,7 @@ h2, h3, h4, h5, h6, .navnar-brand{
     font-size: .8rem;
 }
 section{
-    padding: 6rem 0;
+    padding: 1rem 0;
 }
 #slider{
     padding: 0 ;
@@ -61,4 +61,14 @@ section{
 }
 .mt-6{
     margin-top: 4rem;
+}
+.btn-primary{
+    background-color: var(--white);
+    color: var(--dark);
+    border-color: var(--dark);
+}
+.btn-primary:hover{
+    background-color: var(--white);
+    color: var(--dark);
+    border-color: var(--dark);
 }
