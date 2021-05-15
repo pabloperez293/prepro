@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../page/styles/estilos.css">
+    <link rel="stylesheet" href="styles/estilos.css">
 
     <title>Hello, Portafolio !</title>
   </head>
@@ -18,17 +18,13 @@
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container">
       <div class="container-fluid">
-        <!-- <a class="navbar-brand " href="#">Pablo Perez</a> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent">        
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
             <li class="nav-item px-3">
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link text-gold" href="#">Portafolio</a>
+              <a class="nav-link text-gold" href="https://github.com/pabloperez293">Portafolio</a>
             </li>
           </ul>
         </div>
@@ -46,7 +42,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active  position-relative ">
-            <img src="img/carr1.jpg" class="d-block w-100" alt="...">
+            <img src="img/carr1.jpg" class="d-block w-100 figure-img img-fluid rounded">
             <div class="carousel-caption position-absolute top-50 start-50 translate-middle ">
               <h1 class="d-block shadow-lg p-2 mb-5 rounded fs-1">Pablo Perez</h1>
                <p class="lead d-none d-sm-block ">Soy un desarrollador web de Buenos Aires
@@ -54,14 +50,14 @@
             </div>
           </div>
           <div class="carousel-item position-relative">
-            <img src="img/carr2.jpg" class="d-block w-100" alt="...">
+            <img src="img/carr2.jpg" class="d-block w-100 figure-img img-fluid rounded ">
             <div class="carousel-caption active position-absolute top-50 start-50 translate-middle">
             <h1 class="d-block shadow-lg p-2 mb-5 rounded">Pablo Perez</h1>
             <p class="lead d-none d-sm-block">Empecé a estudiar programación mediante mi tecnicatura y  cursos.</p> 
          </div>
           </div>
           <div class="carousel-item position-relative">
-            <img src="img/carr3.jpg" class="d-block w-100" alt="...">
+            <img src="img/carr3.jpg" class="d-block w-100 figure-img img-fluid rounded ">
             <div class="carousel-caption active position-absolute top-50 start-50 translate-middle">
             <h1 class="d-block shadow-lg p-2 mb-5 rounded">Pablo Perez</h1>
             <p class="lead d-none d-sm-block">Soy un desarrollador Frontend que va camino
@@ -96,11 +92,11 @@
                 en el área de programación, análisis funcional y testeo de
                 aplicaciones como objetivo de carrera profesional.</p>
               </div>
-              
-              <div class="col-md-6">
+              <section>
+              <div class="col-md-6 ml-auto">
                 <ul class="list-group list-group-flush list-group-item">
-                  <li class="list-group-item list-group-item-success">EXPERIENCIA LABORAL</li>
-                  <li class="list-group-item  ">
+                  <li class="list-group-item list-group-item-success ">EXPERIENCIA LABORAL</li>
+                  <li class="list-group-item">
                     <div class="d-flex align-items-center">
                     <strong>  ANALISTA TESTING FLOW | TELECOM</strong>
                     <div class="spinner-border ms-auto text-success" role="status" aria-hidden="true"></div>
@@ -111,9 +107,11 @@
                   <li class="list-group-item">SOPORTE TENICO | DEPOT</li>
                 </ul>
               </div>
+            </section>
 
+      
               <div class="col-md-6">
-                <ul class="list-group list-group-flush list-group-item">
+                <ul class="list-group list-group-flush list-group-item rounded text-center">
                   <li class="list-group-item list-group-item-success text-center">CONOCIMIENTOS</li>
                   <li class="list-group-item  ">HTML5</li>
                   <div class="progress">
@@ -137,8 +135,41 @@
                     </div>
                 </ul>
               </div>
+      
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush list-group-item">
+                  <li class="list-group-item list-group-item-success text-center">EDUCACION</li>
+                  <li class="list-group-item  ">
+                    <div class="d-flex align-items-center">
+                    <strong>ISFT-225 TECNICO EN DESARROLLO DE SOFTWARE</strong>
+                    <div class="spinner-border ms-auto text-success" role="status" aria-hidden="true"></div>
+                  </div>
+                  </li>
+                  <li class="list-group-item">TÉCNICO EN INFORMÁTICA | GALILEO GALILEI</li>
+                    <li class="list-group-item">Tecnico en informatica 2009-2014</li>
+                </ul>
+              </div>
+            
+              <div class="card mt-6 bg-dark p-4 border-0 ">
+                <div class="row d-flex">
+                  <div class="col-md-8">
+                    <h3 class="text-light mb-0 d-inline-block">Mi cv actualizado</h3>
+                    <p class="text-muted mb-0"> descargalo por el siguiente boton</p>
+                    </div>
+                    <div class="col-md-4 align-self-center text-light text-sm-self">
+                      <a href="Pablo Perez CV.pdf" class="btn btn-primary ml-auto b-inline-block my-2">Cv actualizado</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
           </div>
-       
+            <!-- Contador de visitas -->
+            <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+              <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=296981"></a><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'><a href='http://www.websmultimedia.com/diseno-logotipos'></a></center>
+              <!-- Fin Contador de visitas -->
         </div>
 
       </section>
