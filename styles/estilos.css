@@ -16,7 +16,7 @@ h2, h3, h4, h5, h6, .navnar-brand{
     line-height: 1.5 !important;
 }
 .bg-dark{
-    background-color: var(--white);
+    background-color: var(--dark) !important;
 }
 .text-gold{
     color: var(--gold) !important;
@@ -26,6 +26,9 @@ h2, h3, h4, h5, h6, .navnar-brand{
 }
 .navbar{
     min-width: 5rem;
+}
+.navbar-toggler{
+    color: var(--light) ;
 }
 .nav-link{
     color: var(--white);
