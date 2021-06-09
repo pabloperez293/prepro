@@ -5,18 +5,21 @@
     --gold: #ecd5a7;
 }
 body{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     letter-spacing: .05rem;
-    /* background-color: var(--dark); */
+     background-color: #a4aca4;
 }
 h2, h3, h4, h5, h6, .navnar-brand{
     font-family: "Oswald", sans-serif;
     font-weight: 500 !important;
     line-height: 1.5 !important;
 }
-.bg-dark{
-    background-color: var(--dark) !important;
+.bg-light-grey{
+    background-color: var(--light-grey);
+}
+.bg-white{
+    background-color: var(--white) !important;
 }
 .text-gold{
     color: var(--gold) !important;
@@ -27,8 +30,8 @@ h2, h3, h4, h5, h6, .navnar-brand{
 .navbar{
     min-width: 5rem;
 }
-.navbar-toggler{
-    color: var(--light) ;
+.elmenu{
+    color: var(--light);
 }
 .nav-link{
     color: var(--white);
@@ -51,7 +54,6 @@ section{
     width: 100%;
 }
 .carousel-caption h1{
-    /* font-size: 6em; */
     letter-spacing: .3em;
     margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.836);
@@ -74,4 +76,55 @@ section{
     background-color: var(--white);
     color: var(--dark);
     border-color: var(--dark);
+}
+#contenedor_carga{
+    background-color: rgba(250, 240, 245, 0.88);
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 1s ease;
+    -o-transition:  all 1s ease;
+    transition:  all 1s ease;
+    z-index: 10000;
+}
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: #35c522;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    /* aca empieza para mostrar el lugar donde va a estar el icono de cargar */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.6s linear infinite;
+    -o-animation:  girar 1.6s linear infinite;
+    animation: girar 1.6s linear infinite;
+}
+.wzp{
+    color: rgb(25, 155, 69);
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+#ul{
+    /* background-color: var(--white) !important; */
+
+}
+@media (max-widht: 575.90px){
+    #slider h3{
+        font-size: 1.2rem;
+    }
+}
+@keyframes girar{
+    from{ 
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
