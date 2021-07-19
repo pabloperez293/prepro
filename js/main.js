@@ -1,6 +1,14 @@
-window.onload = function(){
-    var contenedor = document.getElementById(" contenedor_carga");
-    
-    contenedor.style.visibility = "hidden";
-    contenedor.style.opacity = "0";
+
+// Menu
+$(document).ready(function(){
+    $("#icon").click(function(){
+        $("ul").toggleClass("show");
+    });
+});
+// recargar
+    window.onload = function(){
+        $("#onload").fadeOut();
+        $("body").removeClass("hidden");    
 }
+
+
