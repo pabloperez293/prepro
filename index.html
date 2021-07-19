@@ -8,7 +8,6 @@
     <!-- animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,27 +18,38 @@
 
     <title>Hello, Portafolio !</title>
   </head>
-  <body>
+  <body class="hidden">
        <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent"> 
-            <i class="fas fa-bars"></i>
-          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-            <li class="nav-item px-3">
-              <a class="nav-link animate__animated animate__fadeIn" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link text-gold  animate__animated animate__fadeIn" href="https://github.com/pabloperez293">Portafolio</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      </div>
+          <div class="container">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent"> 
+                <i class="fas fa-bars">
+                </i>
+              <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item px-3">
+                  <a class="nav-link animate__animated animate__fadeIn" aria-current="page" class="active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link animate__animated animate__fadeIn" href="https://github.com/pabloperez293">Portafolio</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-gold  animate__animated animate__fadeIn" href="">Feedback</a>
+                </li>
+              </ul>
+            
+            </div>
+            <label id="icon">
+              <i class="fas fa-bars"></i>
+            </label>
+          </div>
+          </div>
     </nav>
-
+    <div class="contenedor text-gold " id="onload">
+      <h1>La pagina se esta cargando</h1>        
+      <div class="search">
+      </div>
+    </div>
       <!-- presentacion del carrusel -->
-
     <section id="slider">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -216,6 +226,9 @@
     <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/2960c27358.js" crossorigin="anonymous"></script>
     
+    <!--  codigo de code.jquery.com-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <script src="js/main.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
