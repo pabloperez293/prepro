@@ -32,13 +32,16 @@ $(document).ready(function(){
         }
     }
 
-    // Elemento submit de enviar mensaje form
+// Elemento submit de enviar mensaje form
 //    const $form = document.querySelector('#form')
+ const $buttonMailto = document.querySelector('#truco')
 
    $form.addEventListener("subtmit", handleSubmit )
 
    function handleSubmit(event) {
        event.preventDefault()
        const form = new FormData(this)
-       console.log(form.get("name"))
+    //    console.log(form.get('name'))
+       $buttonMailto.setAttribute('href','mailto:paperezpablo@gmail.com?subject=${}&body=')
+       $buttonMailto.click()
    }
