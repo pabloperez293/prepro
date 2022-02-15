@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/estilos.css">
     <link rel="stylesheet" href="styles/whats.css">
 
-    <title>Hello, Portafolio !</title>
+    <title>Portafolio !</title>
   </head>
   <body class="hidden">
     
@@ -194,33 +194,34 @@
 <!-- formulario -->
 <section class="container formulario w-75 mt-4 p-4 mb-3 rounded-3 shadow">
   <div class="row align-items-stretch" id="#fomulario">          
-  
-    <div class="col d-lg-block ">
+    
+    <div class="col d-lg-block p-1 rounded">
       <div class="text-end">
         <img src="img/coff1.png" width="60">
         <h2 class="fw-bold text-center pt-3 mb-3">Bienvenidos</h2>
       </div>
-        <!-- ingresando al formulario -->
-        <form action="#">
+    <!-- ingresando al formulario -->
+        <form id="form" class="form" action="https://formspree.io/f/mqknqzdv"  method="POST">
           <div class="mb-4">
             <label for="name" class="form-label fw-bold">Nombre completo</label>
-            <input type="name" class="form-control" name="name" placeholder="juan perez">  
+            <input name="name" type="text" id="name" class="form-control"  placeholder="juan perez">  
           
           </div>
 
           <div class="mb-4">
             <label for="email" class="form-label fw-bold">Correo:</label>
-            <input type="email" class="form-control" name="email" placeholder="email">                  
+            <input name="email"  type="text" id="email" class="form-control" placeholder="email">                  
     
           </div>
 
-          <label for="text" class="form-label fw-bold">En que te puedo ayudar?</label>
-          <div class="form-floating mb-4">
-            <input type="text" id="floatingTextarea2" class="speak form-control"  placeholder="Hablemos" style="height: 100px">  
-          </div>
+          <label for="message" class="form-label fw-bold">En que te puedo ayudar?</label>
+            <div class="form-floating mb-4">
+              <textarea type="text" id="message" class="speak form-control" cols="30" rows="10"  placeholder="Hablemos" >  
+                <button type="submit" class="btn btn-outline-light "> Enviar</button>
+
+            </div>
 
           <div class="d-grid">
-            <button type="submit" class="btn btn-outline-light "> Enviar</button>
           </div>
         
         </form>            
@@ -231,16 +232,16 @@
 <!-- Footer  -->
 <footer class="bg-white text-dark py-4">
   <div class="container">
-    <div class="row">
+    <div class="row iconos">
       <div class="col-md-6">
-        <ul class="list-inline mb-0">
+        <ul class="list-inline mb-0 ">
           <li class="list-inline-item lead mx-2">
             <a class="text-dark" href="https://github.com/pabloperez293"><i class="fab fa-github animate__animated animate__jackInTheBox"></i></a>
           </li>
           <li class="list-inline-item lead mx-2">
             <a class="text-dark" href="https://twitter.com/PabloVbosch"><i class="fab fa-twitter-square animate__animated  animate__jackInTheBox"></i></a>
           </li>
-          <li class="list-inline-item lead mx-2">
+          <li class="list-inline-item lead mx-2 ">
             <a class="text-dark" href="https://www.linkedin.com/in/pabloperezant/"><i class="fab fa-linkedin animate__animated  animate__jackInTheBox"></i></a>
           </li>
           </ul>
@@ -252,18 +253,21 @@
   </div>
 </footer>
 
-<!-- link de whatsapp -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=541157576175" class="float wzp" target="_blank">
-<i class="fa fa-whatsapp my-float align-items-end "></i>
-</a>
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
-    <script src="https://kit.fontawesome.com/2960c27358.js" crossorigin="anonymous"></script>
-    
+
     <!--  codigo de code.jquery.com-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
     <script src="js/main.js"></script>
+
+    <!-- link de whatsapp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=541157576175" class="float wzp" target="_blank">
+    <i class="fa fa-whatsapp my-float align-items-end "></i>
+    </a>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script> -->
+    <script src="https://kit.fontawesome.com/2960c27358.js" crossorigin="anonymous"></script>
+    
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>

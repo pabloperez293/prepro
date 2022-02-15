@@ -152,6 +152,9 @@ nav #icon{
     display: none;
     
 }
+.iconos{
+    width: 50%;
+}
 /* titulos  */
 .gradiente{
     background: linear-gradient(to right, #35c522 , #3498db);
