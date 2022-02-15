@@ -133,7 +133,7 @@
 
   <!-- tecnologias -->
   <div class="col-md-6">
-      <ul class="list-group list-group-flush list-group-item rounded text-center animate__animated animate__slideInLeft  box">
+      <ul class="list-group list-group-flush list-group-item rounded text-center animate__animated animate__slideInLeft py-3   box">
           <li class="list-group-item list-group-item-success text-center fw-bold gradiente ">CONOCIMIENTOS</li>
           <li class="list-group-item lead text-muted  ">HTML5</li>
             <div class="progress">
@@ -151,9 +151,9 @@
             <div class="progress">
               <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-          <li class="list-group-item text-center lead text-muted">React.js</li>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          <li class="list-group-item text-center lead text-muted ">React.js</li>
+            <div class="progress ">
+              <div class="progress-bar progress-bar-striped bg-dark " role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
       </ul>
   </div>
@@ -192,40 +192,41 @@
 </section>
 
 <!-- formulario -->
-<section class="container formulario w-75 mt-4 p-4 mb-3 rounded-3 shadow">
+<section class="container formulario w-75 mt-4 p-4 mb-3 rounded shadow">
   <div class="row align-items-stretch" id="#fomulario">          
     
-    <div class="col d-lg-block p-1 rounded">
-      <div class="text-end">
-        <img src="img/coff1.png" width="60">
-        <h2 class="fw-bold text-center pt-3 mb-3">Bienvenidos</h2>
-      </div>
-    <!-- ingresando al formulario -->
-        <form id="form" class="form" action="https://formspree.io/f/mqknqzdv"  method="POST">
-          <div class="mb-4">
-            <label for="name" class="form-label fw-bold">Nombre completo</label>
-            <input name="name" type="text" id="name" class="form-control"  placeholder="juan perez">  
-          
-          </div>
-
-          <div class="mb-4">
-            <label for="email" class="form-label fw-bold">Correo:</label>
-            <input name="email"  type="text" id="email" class="form-control" placeholder="email">                  
-    
-          </div>
-
-          <label for="message" class="form-label fw-bold">En que te puedo ayudar?</label>
-            <div class="form-floating mb-4">
-              <textarea type="text" id="message" class="speak form-control" cols="30" rows="10"  placeholder="Hablemos" >  
-                <button type="submit" class="btn btn-outline-light "> Enviar</button>
-
-            </div>
-
-          <div class="d-grid">
-          </div>
-        
-        </form>            
+  <div class="col d-lg-block p-1 rounded">
+    <div class="text-end">
+      <img src="img/coff1.png" width="60">
+      <h2 class="fw-bold text-center pt-3 mb-3">Bienvenidos</h2>
     </div>
+  <!-- ingresando al formulario -->
+    <form id="form" class="form" action="https://formspree.io/f/mqknqzdv"  method="POST">
+        <div class="mb-4">
+          <label for="name" class="form-label fw-bold">Nombre completo</label>
+          <input name="name" type="text" id="name" class="form-control"  placeholder="juan perez">
+        </div>
+
+        <div class="mb-4">
+          <label for="email" class="form-label fw-bold">Correo:</label>
+          <input name="email"  type="text" id="email" class="form-control" placeholder="email">                  
+        </div>
+
+        <label for="message" class="py-2 fw-bold ">En que te puedo ayudar?</label>  
+        <div class="mb-4 text-center align-items-center">
+          <textarea id="message" class=" w-75" name="message" cols="50" rows="10"></textarea>
+          
+          <div class="py-4 text-center p-2 d-lg-flex">
+            <button type="submit" class=" btn btn-outline-light "> Enviar</button>
+          </div>
+
+        </div>
+        
+
+    </form>
+    
+    <a href="mailto:paperezpablo@gmail.com" id="truco"></a>
+</div>
   </div>
 </section>
 

@@ -31,3 +31,14 @@ $(document).ready(function(){
             alert("Gracias por contactarme, te estare respondiendo pronto");
         }
     }
+
+    // Elemento submit de enviar mensaje form
+//    const $form = document.querySelector('#form')
+
+   $form.addEventListener("subtmit", handleSubmit )
+
+   function handleSubmit(event) {
+       event.preventDefault()
+       const form = new FormData(this)
+       console.log(form.get("name"))
+   }
