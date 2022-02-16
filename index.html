@@ -17,105 +17,156 @@
     <link rel="stylesheet" href="styles/whats.css">
 
     <title>Portafolio !</title>
+    <script src="fontawesome-free-6.0.0-web/js/all.min.js" crossorigin="anonymous"></script>
+    <style media="all" id="fa-v4-font-face"></style>
+    <style media="all" id="fa-v4-shims"></style>
+    <style media="all" id="fa-main"></style>
+
   </head>
   <body class="hidden">
-    
-<nav class="navbar navbar-expand-lg bg-dark">
+
+    <!--welcome navbar -->
+<section id="inicio" class="ini p-0 m-0">
+<nav class="navbar navbar-expand-lg bg-light fixed-top ">
   <div class="container">
+    <img src="img/logoPablo.jpeg" width="250" >
     <div class="container-fluid">
       <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent"> 
-          <i class="fas fa-bars">
-          </i>
+          
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item px-3">
-            <a class="nav-link animate__animated animate__fadeIn" aria-current="page" class="active" href="#">Inicio</a>
+            <a class="nav-link text-dark" aria-current="page" href="#">Sobre mi</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link animate__animated animate__fadeIn" href="https://github.com/pabloperez293">Portafolio</a>
+            <a class="nav-link text-dark" href="https://github.com/pabloperez293">Portafolio</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link text-gold  animate__animated animate__fadeIn" href="#formulario">Feedback</a>
+            <a class="nav-link text-dark" href="#formulario">Feedback</a>
           </li>
         </ul>      
       </div>
         <label id="icon">
-          <i class="fas fa-bars"></i>
+          <i class="fas fa-bars btn-outline-warning py-0"></i>
         </label>
     </div>
   </div>
 </nav>
+
   <!-- inicio de carga de pagina -->
     <div class="contenedor text-gold " id="onload">
       <h1 class="carga">La pagina se esta cargando</h1>        
         <div class="search"></div>
     </div>
-<!-- presentacion del carrusel -->
-    <section id="slider">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active  position-relative ">
-            <img src="img/carr1.png" class="d-block w-100 figure-img img-fluid rounded">
-            <div class="carousel-caption position-absolute top-50 start-50 translate-middle ">
-              <h1 class="d-block shadow-lg p-2 mb-5 rounded fs-1">Pablo Perez</h1>
-               <p class="lead d-none d-sm-block ">Soy un desarrollador web de Buenos Aires
-                 actualmente enfocado en JavaScript.</p> 
-            </div>
-          </div>
-          <div class="carousel-item position-relative">
-            <img src="img/carr2.png" class="d-block w-100 figure-img img-fluid rounded ">
-            <div class="carousel-caption active position-absolute top-50 start-50 translate-middle">
-            <h1 class="d-block shadow-lg p-2 mb-5 rounded">Pablo Perez</h1>
-            <p class="lead d-none d-sm-block">Empecé a estudiar programación mediante mi tecnicatura y  cursos.</p> 
-         </div>
-          </div>
-          <div class="carousel-item position-relative">
-            <img src="img/carr3.png" class="d-block w-100 figure-img img-fluid rounded ">
-            <div class="carousel-caption active position-absolute top-50 start-50 translate-middle">
-            <h1 class="d-block shadow-lg p-2 mb-5 rounded">Pablo Perez</h1>
-            <p class="lead d-none d-sm-block">Soy un desarrollador Frontend que va camino
-              hacia el React js.</p> 
-         </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
+</section>
+<!-- Presentacion  -->
+<section class="p-0">
+  <div class="contenedor bg-dark">
+    <div class="mb-6 ">
+      <img src="img/foto2.jpeg" class="p-1 mb-2 redondo box">
+    </div>
+    <div class="col-md-6 m-5">
+      <ul class=" mt-2 animate__animated animate__slideInRight box">
+        <li class="text-center fw-bolder text-light list-group-item  lead gradiente"> Frontend developer </li>
+          <p class="lead text-light d-md-flex">
+            <br>
+            Soy un programador junior con interés en desarrollarme
+            en el área de programación, análisis funcional, automatizacion de tareas, testeo de
+            aplicaciones como objetivo de carrera profesional. Me gustan los desafios y me siento comodo cuando
+            en equipo, 
+          </p>
+      </ul>
+    </div>
 
-      <!-- sobre mi -->
-  <section>
-    <div class="container">
-      <div class="row">
-          <div class="col-md-6">              
-            <div class="mt-6">
-              <img src="img/foto2.jpeg" class="p-2 mb-5  box">
-            </div>
-          </div>
-        <div class="col-md-6">
-          <ul class=" mt-6 list-group-item animate__animated animate__slideInRight box">
-            <li class="text-center list-group-item  lead text-muted gradiente">JR Frontend developer</li>
-              <p class="lead text-muted">
-                <br>
-                Soy un programador junior con interés en desarrollarme
-                en el área de programación, análisis funcional y testeo de
-                aplicaciones como objetivo de carrera profesional.
-              </p>
-          </ul>
+
+  </div>
+</section>
+
+<!-- sobre mi -->
+  <section class="py-4">
+    <div class="container py-2 bg-light">
+      <div class="row" >
+        <div class="col-9">
+          <h3 class="fw-bold p-2 ">Hola Bienvenido a mi <span class="text-warning">portafolio <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i></span> </h3>
         </div>
+        <div class="col-4">
+          
+        <p class="">Les voy a mostrar algunas de las herramientas que uso a diario en esta pagina web,
+          tambien veran algunos de mis programas que estuve haciendo y mi curriculum
+        <img src="img/yo.jpg" width="100%" class="py-4">    
+          Se los dejo en formato pdf para que lo tengan en conjunto con un Certificado de un curso que hice.
+      </p>  
+      </div>
+
+      <div class="col-6 ">
+  <!-- tecnologias -->
+
+          <ul class=" offset-5 list-group list-group-flush list-group-item rounded text-center animate__animated animate__slideInLeft py-3 box border-0">
+              <li class="list-group-item list-group-item-success text-center fw-bold gradiente">Que herramientas uso?</li>
+              <li class="list-group-item lead ">
+                
+                <i class="fa-brands fa-html5 fa-2x"></i></li>
+              
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-orange" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              <li class="list-group-item lead ">
+                <i class="fa-brands fa-css3-alt fa-2x"></i>
+              </li>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <li class="list-group-item lead ">
+                  <i class="fa-brands fa-sass fa-2x"></i>
+                </li>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-pink" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+    
+              <li class="list-group-item lead ">
+                <i class="fa-brands fa-js fa-2x"></i>
+              </li>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              <li class="list-group-item lead "">
+                <i class="fa-brands fa-bootstrap fa-2x"></i>
+              </li>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-violet" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              <li class="list-group-item text-center lead  ">
+                <i class="fa-brands fa-react fa-2x"></i>
+              </li>
+                <div class="progress ">
+                  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <li class="list-group-item text-center lead  ">
+                  <i class="fa-solid fa-server fa-2x"></i>
+                </li>
+                <div class="progress ">
+                  <div class="progress-bar progress-bar-striped bg-dark " role="progressbar" style="width: 45%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <li class="list-group-item text-center lead ">
+                  <i class="fa-brands fa-unsplash fa-2x"></i>
+                </li>
+                <div class="progress ">
+                  <div class="progress-bar progress-bar-striped bg-dark " role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+          </ul>
+        
+      </div>
+
+      <div class="col-md-4 align-self-center text-light text-sm-self">
+        <a href="PabloPerezCV.pdf" class="btn btn-outline-warning ml-end b-inline-block my-2">Cv actualizado  <i class="fas fa-file-download"></i></a>
+        <a href="Certificado.png" class="btn btn-outline-success ml-end b-inline-block my-2">Certificado  <i class="fas fa-file-download"></i></a>
+      </div>
+
+    </div> 
+  </section>
 
   <!-- Trabajos  -->
     <section>
+      
       <div class="col align-self-end">
         <ul class="list-group-flush list-group-item animate__animated animate__slideInLeft box">
           <li class="list-group-item list-group-item-success mx-end lead text-muted fw-bold gradiente">EXPERIENCIA LABORAL</li>
@@ -131,35 +182,11 @@
       </div>
     </section>
 
-  <!-- tecnologias -->
-  <div class="col-md-6">
-      <ul class="list-group list-group-flush list-group-item rounded text-center animate__animated animate__slideInLeft py-3   box">
-          <li class="list-group-item list-group-item-success text-center fw-bold gradiente ">CONOCIMIENTOS</li>
-          <li class="list-group-item lead text-muted  ">HTML5</li>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          <li class="list-group-item lead text-muted">CSS</li>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          <li class="list-group-item lead text-muted">JavaScript</li>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          <li class="list-group-item lead text-muted">Bootstrap</li>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          <li class="list-group-item text-center lead text-muted ">React.js</li>
-            <div class="progress ">
-              <div class="progress-bar progress-bar-striped bg-dark " role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-      </ul>
-  </div>
-
+ 
   <!-- Estudios -->
-<div class="col-md-6">
+
+<section>
+<div class="col-md-6 ">
   <ul class="list-group list-group-flush list-group-item animate__animated animate__slideInRight  box">
     <li class="list-group-item list-group-item-success text-center fw-bold lead text-muted gradiente">EDUCACION</li>
     <li class="list-group-item  ">
@@ -171,6 +198,7 @@
     <li class="list-group-item lead text-muted">Tecnico en informatica 2009-2014</li>
   </ul>
 </div>
+</section>
     <!-- Certificados -->
 <div class="card mt-6 bg-white p-4 shadow border-0 animate__animated animate__slideInLeft ">
   <div class="row d-flex">
@@ -178,11 +206,6 @@
       <h3 class="text-dark mb-0 d-inline-block lead text-muted">Mi cv actualizado</h3>
       <p class="text-muted mb-0"> descargalo por el siguiente boton</p>
     </div>
-
-      <div class="col-md-4 align-self-center text-light text-sm-self">
-        <a href="PabloPerezCV.pdf" class="btn btn-outline-warning ml-end b-inline-block my-2">Cv actualizado  <i class="fas fa-file-download"></i></a>
-        <a href="Certificado.png" class="btn btn-outline-success ml-end b-inline-block my-2">Certificado  <i class="fas fa-file-download"></i></a>
-      </div>
   </div>
 </div>
     <!-- fin Certificados -->
@@ -192,13 +215,13 @@
 </section>
 
 <!-- formulario -->
-<section class="container formulario w-75 mt-4 p-4 mb-3 rounded shadow">
-  <div class="row align-items-stretch" id="#fomulario">          
+<section id="formulario" class="container formulario w-75 mt-4 p-4 mb-3 rounded shadow">
+  <div class="row align-items-stretch" >          
     
   <div class="col d-lg-block p-1 rounded">
     <div class="text-end">
       <img src="img/coff1.png" width="60">
-      <h2 class="fw-bold text-center pt-3 mb-3">Bienvenidos</h2>
+      <h2 class="fw-bold text-center pt-3 mb-3">Me queres dar un Feedback?</h2>
     </div>
   <!-- ingresando al formulario -->
     <form id="form" class="form" action="https://formspree.io/f/mqknqzdv"  method="POST">
@@ -252,19 +275,19 @@
 </footer>
 
 
-    <!--  codigo de code.jquery.com-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
-    <script src="js/main.js"></script>
 
     <!-- link de whatsapp -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=541157576175" class="float wzp" target="_blank">
-    <i class="fa fa-whatsapp my-float align-items-end "></i>
+      <i class="fa-brands fa-whatsapp my-float align-items-end"></i>  
     </a>
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script> -->
     <script src="https://kit.fontawesome.com/2960c27358.js" crossorigin="anonymous"></script>
     
+    <!--  codigo de code.jquery.com-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <script src="js/main.js"></script>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
