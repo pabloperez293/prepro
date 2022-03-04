@@ -23,7 +23,7 @@ h2, h3, h4, h5, h6, .navnar-brand{
     font-weight: 250 !important;
     line-height: 1.5 !important;
 }
-/* presentacion */
+/* presentacion imagen*/
 .redondo{
     border-radius: 100%;
 }
@@ -54,6 +54,10 @@ h2, h3, h4, h5, h6, .navnar-brand{
 .navbar{
     min-width: 10rem;
     transition: all 0.5s ease;
+}
+.navbar-nav{
+    color: var(--gold) !important;
+    background-color: var(--white) !important;
 }
 .navbar-nav li a{
     font-weight: bold;
@@ -111,6 +115,11 @@ h2, h3, h4, h5, h6, .navnar-brand{
     transition:  all 1s ease;
     z-index: 90000;
 }
+.container-lg{
+    -webkit-transition: all 1s ease;
+    -o-transition:  all 1s ease;
+    transition:  all 1s ease;
+}
 /* imagen con el hover */
 .box{
     padding: 0px 1px;
@@ -151,6 +160,7 @@ h2, h3, h4, h5, h6, .navnar-brand{
 .hidden{
     overflow: hidden;
 }
+
 .carga{
     height: 50%;
 }
@@ -180,7 +190,7 @@ nav #icon{
 }
 /* titulos  */
 .gradiente{
-    background: linear-gradient(to right, #c55b22 , #d5dfe6);
+    background: linear-gradient(to right, #c55b22 , #272727);
 }
 /* formulario */
 .formulario{
@@ -192,6 +202,11 @@ nav #icon{
     opacity: 0;
 }
 @media (max-widht: 1199px){
+    .lead{
+        margin-bottom: 15px;
+        margin-left: 14px;
+        margin-top: 15px;
+    }
     #slider h3{
         font-size: 20px;
     }
@@ -199,9 +214,7 @@ nav #icon{
         border: 1px solid white;
         transition: .5s;
     }
-    #inicio{
-        flex-direction: fixed;
-      }
+    
     .navbar-nav li a{
         font-weight: bold;
         color: var(--white);
@@ -215,6 +228,12 @@ nav #icon{
     }
 }
 @media(max-width: 1048px){
+ 
+    .lead{
+        margin-bottom: 15px;
+        margin-left: 14px;
+        margin-top: 15px;
+    }
     label.logo{
         font-size: 32px;
         padding-left: 60px;
@@ -229,9 +248,6 @@ nav #icon{
         border: 1px solid white;
         transition: .5s;
     }
-    #inicio {
-        flex-direction: fixed;
-      }
     .navbar-nav li a{
         font-weight: bold;
         color: var(--white);
@@ -246,6 +262,11 @@ nav #icon{
     
 }
 @media(max-width: 909px){
+    .lead{
+        margin-bottom: 15px;
+        margin-left: 14px;
+        margin-top: 15px;
+    }
     nav #icon{
         display: block;
     }
