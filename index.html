@@ -23,58 +23,60 @@
     <style media="all" id="fa-main"></style>
 
   </head>
-  <body class="hidden">
+
+  <body>
    <!--welcome navbar -->
-<section class="p-0 m-0">
-<nav class="navbar navbar-expand-lg bg-light fixed-top ">
-  <div class="container flex-nowrap">
-    <img src="img/logoPablo.jpeg"  width="250" >
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent"> 
-          
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-          <li class="nav-item px-3">
-            <a class="nav-link text-dark" aria-current="page" href="#">Sobre mi</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link text-dark" href="https://github.com/pabloperez293">Portafolio</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link text-dark" href="#formulario">Feedback</a>
-          </li>
-        </ul>      
-      </div>
-        <label id="icon">
-          <i class="list-group-item-primary fas fa-bars btn-outline-warning py-0"></i>
-        </label>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/coff1.png" width="50px">Portafolio  Personal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-lg-auto">
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">Portafolio</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#"> Tools </a>         
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link disabled font-weight-bold" href="#" >Pablo Perez</a>
+            </li>
+          </ul>
+        </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!-- inicio de carga de pagina -->
     <div class="contenedor text-gold " id="onload">
       <h1 class="carga">La pagina se esta cargando</h1>        
         <div class="search"></div>
     </div>
-</section>
 <!-- Presentacion  -->
 <section>
-  <div class="container-lg bg-dark ">
-    <div class="row justify-content-md-center">
-    <div class="col ">
-      <img src="img/foto2.jpeg" class="p-md-3 mx-auto d-block redondo ">
-    </div>
-    <div class="col-md-6 m-5 lead">
-      <ul class=" mt-2 animate__animated animate__slideInRight box">
-        <li class="text-center fw-bolder text-dark list-group-item  border-0  gradiente d-inline-flex p-2"> Frontend developer </li>
-          <p class="text-light d-none d-lg-block ">
-            <br>
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-6">
+        <h2 class="text-center text-light  gradiente  display-4"> Frontend developer </h2>
+          <p class="text-dark lead mt-4 ">
             Soy un programador junior con interés en desarrollarme
             en el área de programación, análisis funcional, automatizacion de tareas, testeo de
-            aplicaciones como objetivo de carrera profesional. Me gustan los desafios y me siento comodo cuando
-            en equipo, 
+            aplicaciones,como objetivo de carrera profesional. Me gustan los desafios ,soy transpartente y me gusta trabajar en equipo.
           </p>
-      </ul>
+    </div>
+
+    <div class="col-lg-6 offset-lg-1 lead">
+      <img src="img/foto2.jpeg" class=" .d-sm-flex redondo ">
+      
+      <div class="col-md-4 align-self-center text-light text-sm-self">
+        <a href="PabloPerezCV.pdf" class="btn btn-outline-warning ml-end b-inline-block my-2">Cv actualizado  <i class="fas fa-file-download"></i></a>
+        <a href="Certificado.png" class="btn btn-outline-success ml-end b-inline-block my-2">Certificado  <i class="fas fa-file-download"></i></a>
+      </div>
     </div>
   </div>
 
@@ -86,7 +88,7 @@
     <div class="container py-2 bg-light">
       <div class="row" >
         <div class="col-9">
-          <h3 class="fw-bold p-2 ">Hola Bienvenido a mi <span class="text-warning">portafolio <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i></span> </h3>
+          <h5 class="fw-bold p-2 ">Hola Bienvenido a mi <span class="text-warning">portafolio <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i></span> </h5>
         </div>
         <div class="col-4">
           
@@ -156,10 +158,7 @@
         
       </div>
 
-      <div class="col-md-4 align-self-center text-light text-sm-self">
-        <a href="PabloPerezCV.pdf" class="btn btn-outline-warning ml-end b-inline-block my-2">Cv actualizado  <i class="fas fa-file-download"></i></a>
-        <a href="Certificado.png" class="btn btn-outline-success ml-end b-inline-block my-2">Certificado  <i class="fas fa-file-download"></i></a>
-      </div>
+ 
 
     </div> 
   </section>
@@ -203,7 +202,7 @@
 <div class="card mt-6 bg-white p-4 shadow border-0 animate__animated animate__slideInLeft ">
   <div class="row d-flex">
     <div class="col-md-8">
-      <h3 class="text-dark mb-0 d-inline-block lead text-muted">Mi cv actualizado</h3>
+      <h4 class="text-dark mb-0 d-inline-block lead text-muted">Mi cv actualizado</h4>
       <p class="text-muted mb-0"> descargalo por el siguiente boton</p>
     </div>
   </div>
@@ -221,7 +220,7 @@
   <div class="col d-lg-block p-1 rounded">
     <div class="text-end">
       <img src="img/coff1.png" width="60">
-      <h2 class="fw-bold text-center pt-3 mb-3">Me queres dar un Feedback?</h2>
+      <h3 class="fw-bold text-center pt-3 mb-3">Me queres dar un Feedback?</h3>
     </div>
   <!-- ingresando al formulario -->
     <form id="form" class="form" action="https://formspree.io/f/mqknqzdv"  method="POST">
