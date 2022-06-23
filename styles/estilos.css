@@ -12,33 +12,21 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-
 }
 body{
-    font-family: 'Nunito', sans-serif;
     font-size: 16px;
     letter-spacing: .05rem;
 }
 section{
     padding: 80px 10px ;
 }
-.logoPrimary{
-    min-width: 160px !important;
-    max-width: 190px !important;
-}
+
 h1 ,h2, h3, h4, h5, h6, .navnar-brand{
     font-family: "Oswald", sans-serif;
-    font-weight: 250px !important;
-    line-height: 1.5 !important;
+    font-weight: 250px ;
+    line-height: 1.5 ;
 }
-a{
-    color: var(--gold);
-}
-a:hover{
-    color: var(--orange);
-    opacity: .9;
-    text-decoration: none;
-}
+
 /* colores */
 .btn{
     font-weight: 600;
@@ -205,15 +193,15 @@ nav #icon{
     justify-content: flex-end;
 
 }
-
-/* formulario */
-.formulario{
-    width: 50%;
-    background: linear-gradient(to right, #35c522 , #3498db);
-}
 /* truco de email */
 #truco{
     opacity: 0;
+}
+figure{
+    position: absolute;
+    z-index: 4;
+    left: 0em;
+    top: 150px;
 }
 @media (max-widht: 1199px){
     .lead{
@@ -221,6 +209,7 @@ nav #icon{
         margin-left: 14px;
         margin-top: 15px;
     }
+
 
 }
 @media(max-width: 1048px){
