@@ -27,9 +27,9 @@
 
 <body>
    <!--welcome Menu -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="img/coff1.png" width="50px"> Portafolio  Personal</a>
+   <div class="container">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand p-2" href="#"><img src="img/coff1.png" width="50px"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,8 +50,8 @@
             </li>
           </ul>
         </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!-- inicio de carga de pagina -->
 <div class="contenedor text-gold " id="onload">
@@ -59,17 +59,19 @@
     <div class="search"></div>
 </div>
 
+
+
 <!-- Presentacion  -->
 <section>    
-    <div class="contenedorHover ">
-      <figure >        
+    <div class="container contenedorHover ">
+      <figure>        
           <div class="froggy">
             <img src="img/foto2.jpeg" class="main-photo ">
           </div>
-        <div class="align-self-center capa ">
+        <div class="capa">
           
-          <h2 class="text-center text-dark display-4 "> Diseñador developer </h2>
-            <p class="text-dark lead mt-3 ">
+          <h2 class="text-center text-dark display-4"> Diseñador developer </h2>
+            <p class="text-dark text-center lead p-2">
               Soy un programador junior con interés en desarrollarme
               en el área de programación, análisis funcional, automatizacion de tareas, testeo de
               aplicaciones,como objetivo de carrera profesional. Me gustan los desafios ,soy transpartente y
@@ -81,6 +83,28 @@
     </div>
 
 </section>
+
+
+<!-- certificados -->
+<div class=" container final bg-light ">
+
+  <h3 class="text-center p-2  centro"> Curriculum y certificados</h3>
+
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Curriculum </h5>
+        <p class="card-text ">Aca tenes un resumen de mis trabajos, estudios y habilidades.</p>
+        <a href="PabloPerezcv.pdf" class="btn btn-outline-warning centro"> <i class="fas fa-file-download"> Download </i></a>
+      </div>
+    </div>
+
+        <a href="./img/Certificado.png" class="btn btn-outline-warning ml-end b-inline-block ">Diseño Web  <i class="fas fa-file-download"></i></a>
+
+        <a href="./img/JavaScript.png" class="btn btn-outline-warning ml-end b-inline-block  ">JavaScript  <i class="fas fa-file-download"></i></a>
+
+</div> 
 
 <!-- sobre mi -->
   <section>
@@ -117,7 +141,7 @@
     <ul class="rounded text-center  animate__animated animate__slideInLeft  ">
               <li class="list-group-item list-group-item-orange text-center fw-bold"><a name="tools"></a> Tools</li>
               <li class="list-group-item lead ">                
-                <i class="fa-brands fa-html5 fa-2x"></i>
+                <p class="font-weight-bold "> HTML <i class="fa-brands fa-html5 fa-2x"></i> </p>
               </li>
               
                 <div class="progress">
@@ -194,7 +218,28 @@
  
   <!-- Estudios -->
 
-<section>
+<section class="container">
+  <div class="row p-2">
+    <h3 class=" text-center"> Educacion y formacion </h3>
+
+    <div class="col border shadow">
+      <h4> Iutom | Terciario</h4>
+      <p>Analista de sistemas</p>
+      <p>Tercer año sin finalizar</p>
+    </div>
+    <div class="col border-1 shadow p-2">
+      <h4> Tecnica N° 5  | Galileo Galilei</h4>
+      <p>Tecnico en informatica</p>
+      <p>Finalizado</p>
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+
+
+
   <div class="col-md-6 ">
     <ul class="list-group list-group-flush list-group-item animate__animated animate__slideInRight  box">
       <li class="list-group-item list-group-item-success text-center fw-bold lead text-muted gradiente">EDUCACION</li>
@@ -209,12 +254,12 @@
   </div>
 </section>
 
-
-<!-- certificados -->
-  <div class="final" >
-    <a href="PabloPerezcv.pdf" class="btn btn-outline-warning ml-end b-inline-block  ">Curriculum  <i class="fas fa-file-download"></i></a>
-    <a href="Certificado.png" class="btn btn-outline-warning ml-end b-inline-block  ">Certificado  <i class="fas fa-file-download"></i></a>
-  </div> 
+<!-- Up btn -->
+<div id="up" class="buttonUp">
+  <div class="btnHijo">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+</div>
 
 <!-- Footer  -->
 <footer class="bg-light text-dark py-4">
